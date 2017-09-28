@@ -1,6 +1,6 @@
 /*! main.scss */
 @import 'flat-ui.scss';
-@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
+//@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
 
 body {
   padding-top: 80px;
@@ -30,6 +30,9 @@ h5 {
 }
 h6 {
   font-size: 1.2em
+}
+img {
+  max-width: 100%;
 }
 
 .container {
