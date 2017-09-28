@@ -1,0 +1,90 @@
+/*! main.scss */
+@import 'flat-ui.scss';
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.204/distr/fira_code.css);
+
+body {
+  padding-top: 80px;
+  font-family: 'Fira Code', monospace;
+  font-size: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+h1 {
+  font-size: 4em
+}
+h2 {
+  font-size: 3.2em
+}
+h3 {
+  font-size: 2.4em
+}
+h4 {
+  font-size: 1.8em
+}
+h5 {
+  font-size: 1.4em
+}
+h6 {
+  font-size: 1.2em
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: auto;
+
+  .fila {
+    display: block;
+    overflow: hidden;
+    clear: both;
+  }
+}
+
+.cabecera {
+  background: $flat-wet-asphalt;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 0;
+}
+
+.color {
+  width: 7em;
+  height: 5em;
+  border-radius: 0.8em;
+  display: inline-block;
+  margin: 1em;
+  margin-right: 2em;
+
+  &.activo {
+    margin: 0;
+    margin-right: 1em;
+    width: 9em;
+    height: 7em
+  }
+  
+  &.rojo {
+    background: $flat-pomegranate;
+  }  
+  &.azul {
+    background: $flat-peter-river;
+  }  
+  &.verde {
+    background: $flat-nephritis;
+  }  
+  &.amarillo {
+    background: $flat-sunflower;
+  }  
+  &.blanco {
+    background: $flat-silver;
+  }  
+  &.negro {
+    background: $flat-midnight-blue;
+  }
+}
