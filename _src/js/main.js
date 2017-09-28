@@ -29,7 +29,7 @@ let colores = {
 
     el.className = classes.join(' ')
 
-    console.log(this._colores)    
+    console.log(this._colores)
   }
 }
 
