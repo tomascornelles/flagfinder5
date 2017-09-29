@@ -35,6 +35,10 @@ img {
   max-width: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
 .container {
   max-width: 1200px;
   padding: 0 15px;
@@ -64,12 +68,13 @@ img {
   display: inline-block;
   margin: 1em;
   margin-right: 2em;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.5);
 
   &.activo {
     margin: 0;
     margin-right: 1em;
     width: 9em;
-    height: 7em
+    height: 7em;
   }
   
   &.rojo {
@@ -85,7 +90,7 @@ img {
     background: $flat-sunflower;
   }  
   &.blanco {
-    background: $flat-silver;
+    background: $flat-clouds;
   }  
   &.negro {
     background: $flat-midnight-blue;
