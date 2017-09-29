@@ -65,7 +65,6 @@ let main = {
     },
     _update: function () {
       let banderasVisibles = []
-      console.log($('#colores')._otrosColores)
       flagsData.map(function(x) {
         let verBandera = false
         if ($('#colores')._otrosColores) {
