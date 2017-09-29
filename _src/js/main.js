@@ -22,22 +22,29 @@ let main = {
     id: 'colores',
     $components: [{
       $type: 'span', class: 'color rojo', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'rojo')}},{
-      $type: 'span', class: 'color azul', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'azul')}},{
-      $type: 'span', class: 'color verde', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'verde')}},{
       $type: 'span', class: 'color amarillo', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'amarillo')}},{
+      $type: 'span', class: 'color naranja', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'naranja')}},{
+      $type: 'span', class: 'color verde', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'verde')}},{
+      $type: 'span', class: 'color azul', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'azul')}},{
       $type: 'span', class: 'color blanco', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'blanco')}},{
-      $type: 'span', class: 'color negro', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'negro')}
+      $type: 'span', class: 'color negro', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'negro')}},{
+      $type: 'span', class: 'color all', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'all')}
     }],
     _colores: [],
+    _otrosColores: false,
     _colorAction: function(el,className, valor) {
       var classes = el.className.split(' ')
       var existingIndex = classes.indexOf(className)
       var existingValor = this._colores.indexOf(valor)
 
-      if (existingIndex >= 0)
+      this._otrosColores = false
+      if (existingIndex >= 0) {
         classes.splice(existingIndex, 1)
-      else
+      }
+      else {
         classes.push(className)
+        if (valor == 'all') this._otrosColores = true
+      }
 
       if (existingValor >= 0)
         this._colores.splice(existingValor, 1)
@@ -49,7 +56,7 @@ let main = {
     }
   }, {
     $type: 'h2',
-    $text: 'Banderas'
+    $text: 'Banderas con los colores'
   }, {
     $type: 'div',
     id: 'banderas',
@@ -58,27 +65,47 @@ let main = {
     },
     _update: function () {
       let banderasVisibles = []
+      console.log($('#colores')._otrosColores)
       flagsData.map(function(x) {
-        let coloresBandera = x.colores.split(' ')
-        let coloresActivos = $('#colores')._colores
         let verBandera = false
-        if (coloresActivos.length > 0) {
-          for (var i = 0; i < coloresBandera.length; i++) {
-            if (coloresActivos.indexOf(coloresBandera[i]) != -1) verBandera = true
-          }          
-        } else {
+        if ($('#colores')._otrosColores) {
+          let coloresBandera = x.colores.split(' ')
+          let coloresActivos = $('#colores')._colores
           verBandera = true
+          if (coloresActivos.length > 0) {
+            for (var i = 0; i < coloresActivos.length; i++) {
+              if (coloresBandera.indexOf(coloresActivos[i]) == -1) {
+                verBandera = false
+              }
+            }
+          } else {
+            verBandera = true
+          }
+        } else {
+          let coloresBandera = x.colores.split(' ').sort().join(' ')
+          let coloresActivos = $('#colores')._colores.sort().join(' ')
+          if (coloresActivos == coloresBandera) {
+            verBandera = true
+          }
         }
-        if (verBandera) banderasVisibles.push(x)  
+        if (verBandera) banderasVisibles.push(x)
       })
       this.$components = banderasVisibles.map(this._template)
-      console.log(banderasVisibles)
     },
     _template: function (item) {
       return {
-        $type: 'img',
-        class: 'color ' + item.colores,
-        src: 'img/banderas/' + item.nombre + '.png'
+        $type: 'div',
+        class: 'caja_bandera',
+        $components: [{
+          $type: 'img',
+          class: 'color ' + item.colores,
+          src: 'img/banderas/' + item.nombre + '.png',
+          alt: item.nombre.replace('-', ' ',),
+          title: item.nombre.replace('-', ' ',)
+        }, {
+          $type: 'p',
+          $text: item.nombre.replace('-', ' ',)
+        }]
       }
     }
   }],

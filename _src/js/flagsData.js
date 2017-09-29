@@ -60,10 +60,10 @@ const flagsData = [
     "colores" : "rojo amarillo verde"
   },
   { "nombre": "Bosnia-and-Herzegovina",
-    "colores" : ""
+    "colores" : "azul amarillo blanco"
   },
   { "nombre": "Botswana",
-    "colores" : "azul amarillo blanco"
+    "colores" : "azul negro blanco"
   },
   { "nombre": "Brazil",
     "colores" : "verde amarillo azul blanco"
@@ -90,148 +90,145 @@ const flagsData = [
     "colores" : "rojo blanco"
   },
   { "nombre": "Cape-Verde",
-    "colores" : ""
+    "colores" : "azul rojo blanco amarillo"
   },
   { "nombre": "Catalunya",
-    "colores" : ""
+    "colores" : "amarillo rojo"
   },
   { "nombre": "Central-African-Republic",
-    "colores" : ""
+    "colores" : "rojo azul blanco amarillo verde"
   },
   { "nombre": "Chad",
-    "colores" : ""
+    "colores" : "rojo amarillo azul"
   },
   { "nombre": "Chile",
-    "colores" : ""
+    "colores" : "rojo azul blanco"
   },
   { "nombre": "China",
-    "colores" : ""
+    "colores" : "rojo amarillo"
   },
   { "nombre": "Colombia",
-    "colores" : ""
+    "colores" : "amarillo azul rojo"
   },
   { "nombre": "Comoros",
-    "colores" : ""
+    "colores" : "verde amarillo blanco rojo azul"
   },
   { "nombre": "Congo-(Democratic)",
-    "colores" : ""
+    "colores" : "azul amarillo rojo"
   },
   { "nombre": "Congo-(Republic)",
-    "colores" : ""
+    "colores" : "verde amarillo rojo"
   },
   { "nombre": "Costa-Rica",
-    "colores" : ""
+    "colores" : "azul rojo blanco"
   },
   { "nombre": "Cote-d'Ivoire",
-    "colores" : ""
+    "colores" : "naranja blanco verde"
   },
   { "nombre": "Croatia",
-    "colores" : ""
+    "colores" : "rojo azul blanco"
   },
   { "nombre": "Cuba",
-    "colores" : ""
+    "colores" : "rojo azul blanco"
   },
   { "nombre": "Cyprus",
-    "colores" : ""
+    "colores" : "blanco naranja verde"
   },
   { "nombre": "Czech-Republic",
-    "colores" : ""
+    "colores" : "rojo azul blanco"
   },
   { "nombre": "Denmark",
-    "colores" : ""
-  },
-  { "nombre": "dirlist.txt",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Djibouti",
-    "colores" : ""
+    "colores" : "azul verde blanco rojo"
   },
   { "nombre": "Dominica",
-    "colores" : ""
+    "colores" : "verde rojo blanco negro amarillo"
   },
   { "nombre": "Dominican-Republic",
-    "colores" : ""
+    "colores" : "rojo azul blanco"
   },
   { "nombre": "East-Timor",
-    "colores" : ""
+    "colores" : "negro rojo amarillo blanco"
   },
   { "nombre": "Ecuador",
-    "colores" : ""
+    "colores" : "amarillo azul rojo"
   },
   { "nombre": "Egypt",
-    "colores" : ""
+    "colores" : "rojo blanco negro"
   },
   { "nombre": "El-Salvador",
-    "colores" : ""
+    "colores" : "azul blanco"
   },
   { "nombre": "Equatorial-Guinea",
-    "colores" : ""
+    "colores" : "azul blanco verde rojo"
   },
   { "nombre": "Eritrea",
-    "colores" : ""
+    "colores" : "verde rojo azul amarillo"
   },
   { "nombre": "Estonia",
-    "colores" : ""
+    "colores" : "azul negro blanco"
   },
   { "nombre": "Ethiopia",
-    "colores" : ""
+    "colores" : "rojo amarillo verde azul"
   },
   { "nombre": "Fiji",
-    "colores" : ""
+    "colores" : "rojo azul blanco"
   },
   { "nombre": "Finland",
-    "colores" : ""
+    "colores" : "blanco azul"
   },
   { "nombre": "France",
-    "colores" : ""
+    "colores" : "rojo azul blanco"
   },
   { "nombre": "Gabon",
-    "colores" : ""
+    "colores" : "verde amarillo azul"
   },
   { "nombre": "Gambia",
-    "colores" : ""
+    "colores" : "verde azul rojo blanco"
   },
   { "nombre": "Georgia",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Germany",
-    "colores" : ""
+    "colores" : "amarillo rojo negro"
   },
   { "nombre": "Ghana",
-    "colores" : ""
+    "colores" : "rojo amarillo verde negro"
   },
   { "nombre": "Grecee",
-    "colores" : ""
+    "colores" : "azul blanco"
   },
   { "nombre": "Grenada",
-    "colores" : ""
+    "colores" : "rojo amarillo verde"
   },
   { "nombre": "Guatemala",
-    "colores" : ""
+    "colores" : "azul blanco amarillo"
   },
   { "nombre": "Guinea-Bissau",
-    "colores" : ""
+    "colores" : "rojo amarillo verde negro"
   },
   { "nombre": "Guinea",
-    "colores" : ""
+    "colores" : "rojo amarillo verde"
   },
   { "nombre": "Guyana",
-    "colores" : ""
+    "colores" : "rojo amarillo verde negro blanco"
   },
   { "nombre": "Haiti",
-    "colores" : ""
+    "colores" : "rojo azul blanco verde"
   },
   { "nombre": "Honduras",
-    "colores" : ""
+    "colores" : "azul blanco"
   },
   { "nombre": "Hungary",
-    "colores" : ""
+    "colores" : "rojo blanco verde"
   },
   { "nombre": "Iceland",
-    "colores" : ""
+    "colores" : "rojo azul blanco"
   },
   { "nombre": "India",
-    "colores" : ""
+    "colores" : "naranja blanco verde"
   },
   { "nombre": "Indonesia",
     "colores" : ""

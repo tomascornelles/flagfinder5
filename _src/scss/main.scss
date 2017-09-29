@@ -80,19 +80,39 @@ img {
   &.rojo {
     background: $flat-pomegranate;
   }  
-  &.azul {
-    background: $flat-peter-river;
+  &.naranja {
+    background: $flat-carrot;
+  }   
+  &.amarillo {
+    background: $flat-sunflower;
   }  
   &.verde {
     background: $flat-nephritis;
-  }  
-  &.amarillo {
-    background: $flat-sunflower;
+  } 
+  &.azul {
+    background: $flat-peter-river;
   }  
   &.blanco {
     background: $flat-clouds;
   }  
   &.negro {
     background: $flat-midnight-blue;
+  }
+  &.all {
+    background: rgb(192,57,43);
+    background: -moz-linear-gradient(left, rgba(192,57,43,1) 0%, rgba(230,126,34,1) 21%, rgba(241,196,15,1) 41%, rgba(39,174,96,1) 61%, rgba(41,128,185,1) 81%, rgba(44,62,80,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(192,57,43,1) 0%,rgba(230,126,34,1) 21%,rgba(241,196,15,1) 41%,rgba(39,174,96,1) 61%,rgba(41,128,185,1) 81%,rgba(44,62,80,1) 100%);
+    background: linear-gradient(to right, rgba(192,57,43,1) 0%,rgba(230,126,34,1) 21%,rgba(241,196,15,1) 41%,rgba(39,174,96,1) 61%,rgba(41,128,185,1) 81%,rgba(44,62,80,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0392b', endColorstr='#2c3e50',GradientType=1 );
+  }
+}
+.caja_bandera {
+  display: inline-block;
+  width: 10em;
+  vertical-align: top;
+  p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
 }
