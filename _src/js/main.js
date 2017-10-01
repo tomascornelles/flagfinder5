@@ -1,6 +1,6 @@
 /*! main.js */
 
-function $(selector, context) {
+function $ (selector, context) {
   return (context || document).querySelector(selector)
 }
 
@@ -16,18 +16,20 @@ let main = {
   $components: [
     {
       $type: 'h2',
-      $text: 'Colores'
+      $text: 'Colores',
+      class: 'container'
     }, {
     $type: 'div',
     id: 'colores',
+    class: 'container',
     $components: [{
-      $type: 'span', class: 'color rojo', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'rojo')}},{
-      $type: 'span', class: 'color amarillo', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'amarillo')}},{
-      $type: 'span', class: 'color naranja', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'naranja')}},{
-      $type: 'span', class: 'color verde', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'verde')}},{
-      $type: 'span', class: 'color azul', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'azul')}},{
-      $type: 'span', class: 'color blanco', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'blanco')}},{
-      $type: 'span', class: 'color negro', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'negro')}},{
+      $type: 'span', class: 'color rojo', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'rojo')}}, {
+      $type: 'span', class: 'color amarillo', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'amarillo')}}, {
+      $type: 'span', class: 'color naranja', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'naranja')}}, {
+      $type: 'span', class: 'color verde', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'verde')}}, {
+      $type: 'span', class: 'color azul', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'azul')}}, {
+      $type: 'span', class: 'color blanco', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'blanco')}}, {
+      $type: 'span', class: 'color negro', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'negro')}}, {
       $type: 'span', class: 'color all', onclick: function (e) {$("#colores")._colorAction(this, 'activo', 'all')}
     }],
     _colores: [],
@@ -49,17 +51,23 @@ let main = {
       if (existingValor >= 0)
         this._colores.splice(existingValor, 1)
       else
-        this._colores.push(valor)
+      if (valor !== 'all') this._colores.push(valor)
 
       el.className = classes.join(' ')
       $('#banderas')._update()
     }
   }, {
     $type: 'h2',
-    $text: 'Banderas con los colores'
+    $text: 'Banderas con los colores: ',
+    class: 'container',
+    $components: [{
+      $type: 'strong',
+      id: 'contador'
+    }]
   }, {
     $type: 'div',
     id: 'banderas',
+    class: 'container',
     $init: function() {
       this.$components = flagsData.map(this._template)
     },
@@ -73,7 +81,7 @@ let main = {
           verBandera = true
           if (coloresActivos.length > 0) {
             for (var i = 0; i < coloresActivos.length; i++) {
-              if (coloresBandera.indexOf(coloresActivos[i]) == -1) {
+              if (coloresBandera.indexOf(coloresActivos[i]) === -1) {
                 verBandera = false
               }
             }
@@ -83,13 +91,14 @@ let main = {
         } else {
           let coloresBandera = x.colores.split(' ').sort().join(' ')
           let coloresActivos = $('#colores')._colores.sort().join(' ')
-          if (coloresActivos == coloresBandera) {
+          if ($('#colores')._colores.length === 0 || coloresActivos === coloresBandera) {
             verBandera = true
           }
         }
         if (verBandera) banderasVisibles.push(x)
       })
       this.$components = banderasVisibles.map(this._template)
+      $('#contador').$text = 'Banderas con los colores: ' + banderasVisibles.length
     },
     _template: function (item) {
       return {

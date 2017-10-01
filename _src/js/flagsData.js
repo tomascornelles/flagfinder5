@@ -36,7 +36,7 @@ const flagsData = [
     "colores" : "rojo blanco"
   },
   { "nombre": "Bangladesh",
-    "colores" : "negro rojo"
+    "colores" : "verde rojo"
   },
   { "nombre": "Barbados",
     "colores" : "azul amarillo negro"
@@ -231,360 +231,360 @@ const flagsData = [
     "colores" : "naranja blanco verde"
   },
   { "nombre": "Indonesia",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Iran",
-    "colores" : ""
+    "colores" : "rojo blanco verde"
   },
   { "nombre": "Iraq",
-    "colores" : ""
+    "colores" : "rojo blanco negro verde"
   },
   { "nombre": "Ireland",
-    "colores" : ""
+    "colores" : "verde blanco naranja"
   },
   { "nombre": "Israel",
-    "colores" : ""
+    "colores" : "blanco azul"
   },
   { "nombre": "Italy",
-    "colores" : ""
+    "colores" : "rojo blanco verde"
   },
   { "nombre": "Jamaica",
-    "colores" : ""
+    "colores" : "verde negro amarillo"
   },
   { "nombre": "Japan",
-    "colores" : ""
+    "colores" : "blanco rojo"
   },
   { "nombre": "Jordan",
-    "colores" : ""
+    "colores" : "rojo negro blanco verde"
   },
   { "nombre": "Kazakhstan",
-    "colores" : ""
+    "colores" : "azul amarillo"
   },
   { "nombre": "Kenya",
-    "colores" : ""
+    "colores" : "negro verde rojo blanco"
   },
   { "nombre": "Kiribati",
-    "colores" : ""
+    "colores" : "rojo azul blanco amarillo"
   },
   { "nombre": "Korea,-North",
-    "colores" : ""
+    "colores" : "rojo blanco azul"
   },
   { "nombre": "Korea,-South",
-    "colores" : ""
+    "colores" : "azul rojo blanco negro"
   },
   { "nombre": "Kosovo",
-    "colores" : ""
+    "colores" : "azul amarillo blanco"
   },
   { "nombre": "Kuwait",
-    "colores" : ""
+    "colores" : "verde blanco rojo negro"
   },
   { "nombre": "Kyrgyzstan",
-    "colores" : ""
+    "colores" : "rojo amarillo"
   },
   { "nombre": "Laos",
-    "colores" : ""
+    "colores" : "azul rojo blanco"
   },
   { "nombre": "Latvia",
-    "colores" : ""
+    "colores" : "blanco rojo"
   },
   { "nombre": "Lebanon",
-    "colores" : ""
+    "colores" : "blanco rojo verde"
   },
   { "nombre": "Lesotho",
-    "colores" : ""
+    "colores" : "azul blanco verde negro"
   },
   { "nombre": "Liberia",
-    "colores" : ""
+    "colores" : "azul rojo blanco"
   },
   { "nombre": "Libya",
-    "colores" : ""
+    "colores" : "rojo negro verde blanco"
   },
   { "nombre": "Liechtenstein",
-    "colores" : ""
+    "colores" : "azul rojo amarillo"
   },
   { "nombre": "Lithuania",
-    "colores" : ""
+    "colores" : "rojo amarillo verde"
   },
   { "nombre": "Luxembourg",
-    "colores" : ""
+    "colores" : "azul rojo blanco"
   },
   { "nombre": "Macedonia",
-    "colores" : ""
+    "colores" : "rojo amarillo"
   },
   { "nombre": "Madagascar",
-    "colores" : ""
+    "colores" : "blanco verde rojo"
   },
   { "nombre": "Malawi",
-    "colores" : ""
+    "colores" : "negro rojo verde"
   },
   { "nombre": "Malaysia",
-    "colores" : ""
+    "colores" : "azul blanco rojo amarillo"
   },
   { "nombre": "Maldives",
-    "colores" : ""
+    "colores" : "azul rojo blanco"
   },
   { "nombre": "Mali",
-    "colores" : ""
+    "colores" : "rojo amarillo verde"
   },
   { "nombre": "Malta",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Marshall-Islands",
-    "colores" : ""
+    "colores" : "azul amarillo blanco"
   },
   { "nombre": "Mauritania",
-    "colores" : ""
+    "colores" : "verde amarillo"
   },
   { "nombre": "Mauritius",
-    "colores" : ""
+    "colores" : "rojo azul amarillo verde"
   },
   { "nombre": "Mexico",
-    "colores" : ""
+    "colores" : "rojo blanco verde"
   },
   { "nombre": "Micronesia-(Federated)",
-    "colores" : ""
+    "colores" : "azul blanco"
   },
   { "nombre": "Moldova",
-    "colores" : ""
+    "colores" : "azul amarillo rojo"
   },
   { "nombre": "Monaco",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Mongolia",
-    "colores" : ""
+    "colores" : "azul rojo"
   },
   { "nombre": "Montenegro",
-    "colores" : ""
+    "colores" : "rojo amarillo"
   },
   { "nombre": "Morocco",
-    "colores" : ""
+    "colores" : "rojo verde"
   },
   { "nombre": "Mozambique",
-    "colores" : ""
+    "colores" : "rojoverde negro amarillo"
   },
   { "nombre": "Myanmar",
-    "colores" : ""
+    "colores" : "rojo amarillo verde"
   },
   { "nombre": "Namibia",
-    "colores" : ""
+    "colores" : "azul rojo verde blanco"
   },
   { "nombre": "Nauru",
-    "colores" : ""
+    "colores" : "azul amarillo blanco"
   },
   { "nombre": "Nepal",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Netherlands",
-    "colores" : ""
+    "colores" : "azul blanco rojo"
   },
   { "nombre": "New-Zealand",
-    "colores" : ""
+    "colores" : "azul rojo blanco"
   },
   { "nombre": "Nicaragua",
-    "colores" : ""
+    "colores" : "azul blanco"
   },
   { "nombre": "Niger",
-    "colores" : ""
+    "colores" : "naranja blanco verde"
   },
   { "nombre": "Nigeria",
-    "colores" : ""
+    "colores" : "verde blanco"
   },
   { "nombre": "Norway",
-    "colores" : ""
+    "colores" : "azul rojo blanco"
   },
   { "nombre": "Oman",
-    "colores" : ""
+    "colores" : "rojo verde blanco"
   },
   { "nombre": "Pakistan",
-    "colores" : ""
+    "colores" : "verde blanco"
   },
   { "nombre": "Palau",
-    "colores" : ""
+    "colores" : "azul amarillo"
   },
   { "nombre": "Panama",
-    "colores" : ""
+    "colores" : "azul rojo blanco"
   },
   { "nombre": "Papua-New-Guinea",
-    "colores" : ""
+    "colores" : "rojo negro"
   },
   { "nombre": "Paraguay",
-    "colores" : ""
+    "colores" : "azul blanco rojo"
   },
   { "nombre": "Peru",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Philippines",
-    "colores" : ""
+    "colores" : "rojo blanco azul"
   },
   { "nombre": "Poland",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Portugal",
-    "colores" : ""
+    "colores" : "rojo verde"
   },
   { "nombre": "Qatar",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Romania",
-    "colores" : ""
+    "colores" : "rojo azul amarillo"
   },
   { "nombre": "Russia",
-    "colores" : ""
+    "colores" : "blanco azul rojo"
   },
   { "nombre": "Rwanda",
-    "colores" : ""
+    "colores" : "azul amarillo verde"
   },
   { "nombre": "Saint-Kitts-and-Nevis",
-    "colores" : ""
+    "colores" : "verde negro rojo amarillo"
   },
   { "nombre": "Saint-Lucia",
-    "colores" : ""
+    "colores" : "azul negro amarillo blanco"
   },
   { "nombre": "Saint-Vincent-and-the-Grenadines",
-    "colores" : ""
+    "colores" : "zul amarillo verde"
   },
   { "nombre": "Samoa",
-    "colores" : ""
+    "colores" : "rono azul"
   },
   { "nombre": "San-Marino",
-    "colores" : ""
+    "colores" : "azul blanco"
   },
   { "nombre": "Sao-Tome-and-Principe",
-    "colores" : ""
+    "colores" : "rojo verde negro"
   },
   { "nombre": "Saudi-Arabia",
-    "colores" : ""
+    "colores" : "verde blanco"
   },
   { "nombre": "Senegal",
-    "colores" : ""
+    "colores" : "verde amarillo rojo"
   },
   { "nombre": "Serbia",
-    "colores" : ""
+    "colores" : "rojo blanco azul"
   },
   { "nombre": "Seychelles",
-    "colores" : ""
+    "colores" : "azul amarillo blanco rojo verde"
   },
   { "nombre": "Sierra-Leone",
-    "colores" : ""
+    "colores" : "verde blanco azul"
   },
   { "nombre": "Singapore",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Slovakia",
-    "colores" : ""
+    "colores" : "rojo azul blanco"
   },
   { "nombre": "Slovenia",
-    "colores" : ""
+    "colores" : "rojo azul blanco"
   },
   { "nombre": "Solomon-Islands",
-    "colores" : ""
+    "colores" : "azul amarillo verde"
   },
   { "nombre": "Somalia",
-    "colores" : ""
+    "colores" : "azul blanco"
   },
   { "nombre": "South-Africa",
-    "colores" : ""
+    "colores" : "azul rojo negro verde amarillo blanco"
   },
   { "nombre": "South-Sudan",
-    "colores" : ""
+    "colores" : "azul rojo negro verde amarillo blanco"
   },
   { "nombre": "Spain",
-    "colores" : ""
+    "colores" : "rojo amarillo"
   },
   { "nombre": "Sri-Lanka",
-    "colores" : ""
+    "colores" : "rojo amarillo naranja verde"
   },
   { "nombre": "Sudan",
-    "colores" : ""
+    "colores" : "rojo blanco negro verde"
   },
   { "nombre": "Suriname",
-    "colores" : ""
+    "colores" : "verde rojo blanco"
   },
   { "nombre": "Swaziland",
-    "colores" : ""
+    "colores" : "azul rojo amarillo"
   },
   { "nombre": "Sweden",
-    "colores" : ""
+    "colores" : "azul amarillo"
   },
   { "nombre": "Switzerland",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Syria",
-    "colores" : ""
+    "colores" : "rojo blanco negro"
   },
   { "nombre": "Taiwan",
-    "colores" : ""
+    "colores" : "rojo azul"
   },
   { "nombre": "Tajikistan",
-    "colores" : ""
+    "colores" : "rojo blanco verde"
   },
   { "nombre": "Tanzania",
-    "colores" : ""
+    "colores" : "azul negro verde amarillo"
   },
   { "nombre": "Thailand",
-    "colores" : ""
+    "colores" : "rojo blanco azul"
   },
   { "nombre": "Togo",
-    "colores" : ""
+    "colores" : "rojo verde amarillo"
   },
   { "nombre": "Tonga",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Trinidad-and-Tobago",
-    "colores" : ""
+    "colores" : "rojo negro blanco"
   },
   { "nombre": "Tunisia",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Turkey",
-    "colores" : ""
+    "colores" : "rojo blanco"
   },
   { "nombre": "Turkmenistan",
-    "colores" : ""
+    "colores" : "rojo verde"
   },
   { "nombre": "Tuvalu",
-    "colores" : ""
+    "colores" : "azul rojo blanco amarillo"
   },
   { "nombre": "Uganda",
-    "colores" : ""
+    "colores" : "rojo amarillo negro"
   },
   { "nombre": "Ukraine",
-    "colores" : ""
+    "colores" : " azul amarillo"
   },
   { "nombre": "United-Arab-Emirates",
-    "colores" : ""
+    "colores" : "rojo blanco verde rojo"
   },
   { "nombre": "United-Kingdom",
-    "colores" : ""
+    "colores" : "azul rojo blanco"
   },
   { "nombre": "United-States-of-America",
-    "colores" : ""
+    "colores" : "azul rojo blanco"
   },
   { "nombre": "Uruguay",
-    "colores" : ""
+    "colores" : "azul blanco amarillo"
   },
   { "nombre": "Uzbekistan",
-    "colores" : ""
+    "colores" : "azul blanco verde rojo"
   },
   { "nombre": "Vanuatu",
-    "colores" : ""
+    "colores" : "rojo verde negro amarillo"
   },
   { "nombre": "Vatican-City",
-    "colores" : ""
+    "colores" : "blanco amarillo"
   },
   { "nombre": "Venezuela",
-    "colores" : ""
+    "colores" : "amarillo azul rojo"
   },
   { "nombre": "Vietnam",
-    "colores" : ""
+    "colores" : "rojo amarillo"
   },
   { "nombre": "Yemen",
-    "colores" : ""
+    "colores" : "rojo blanco negro"
   },
   { "nombre": "Zambia",
-    "colores" : ""
+    "colores" : "verde rojo negro amarillo"
   },
   { "nombre": "Zimbabwe",
-    "colores" : ""
+    "colores" : "verde rojo negro amarillo"
   }
 ]
